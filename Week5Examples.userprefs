@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{E40B6226-ABAE-4D09-B209-3B17D4836FCE}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../Git/LuxorUniversal/Luxor.Droid/Gestures/TouchEffect.cs" line="210" offsetX="658" offsetY="3172" expression="pointerLocation.Y" liveUpdate="True" />
+    <Watch file="../../Git/LuxorUniversal/Luxor.Droid/Gestures/TouchEffect.cs" line="209" offsetX="658" offsetY="3119" expression="pointerLocation.X" liveUpdate="True" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Week5Examples.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.EAC59461-916A-4694-A3BA-E84A2BAEFF16">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Week5Examples.iOS>
+</Properties>
