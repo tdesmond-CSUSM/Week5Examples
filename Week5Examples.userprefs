@@ -1,5 +1,18 @@
 ﻿<Properties StartupConfiguration="{E40B6226-ABAE-4D09-B209-3B17D4836FCE}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Week5Examples/BackwardsBinding.xaml">
+    <Files>
+      <File FileName="Week5Examples/Models/Person.cs" Line="29" Column="6" />
+      <File FileName="Week5Examples/SimpleStackLayoutWithBinding.xaml" Line="10" Column="15" />
+      <File FileName="Week5Examples/SimpleStackLayoutWithBinding.xaml.cs" Line="20" Column="37" />
+      <File FileName="Week5Examples/Week5ExamplesPage.xaml" Line="10" Column="59" />
+      <File FileName="Week5Examples/Week5ExamplesPage.xaml.cs" Line="16" Column="9" />
+      <File FileName="Week5Examples/App.xaml.cs" Line="11" Column="39" />
+      <File FileName="Week5Examples/ViewToViewBinding.xaml" Line="4" Column="59" />
+      <File FileName="Week5Examples/ViewToViewBinding.xaml.cs" Line="1" Column="1" />
+      <File FileName="Week5Examples/BackwardsBinding.xaml.cs" Line="1" Column="1" />
+      <File FileName="Week5Examples/BackwardsBinding.xaml" Line="93" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

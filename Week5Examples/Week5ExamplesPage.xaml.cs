@@ -8,5 +8,20 @@ namespace Week5Examples
         {
             InitializeComponent();
         }
+
+        void Handle_NavigateToBackwardsBinding(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new BackwardsBinding());
+        }
+
+        void Handle_NavigateToSimpleStackLayout(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new SimpleStackLayoutWithBinding());
+        }
+
+        void Handle_NavigateToViewToViewBinding(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new ViewToViewBinding());
+        }
     }
 }
