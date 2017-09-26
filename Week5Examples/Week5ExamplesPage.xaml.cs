@@ -23,5 +23,10 @@ namespace Week5Examples
         {
             Navigation.PushAsync(new ViewToViewBinding());
         }
+
+        void Handle_NavigateToCustomCellListView(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new CustomCellListView());
+        }
     }
 }

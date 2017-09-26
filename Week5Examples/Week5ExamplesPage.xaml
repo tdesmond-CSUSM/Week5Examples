@@ -14,5 +14,8 @@
         <Button
             Text="View To View Binding"
             Clicked="Handle_NavigateToViewToViewBinding" />
+        <Button
+            Text="List View w/ Custom Cells"
+            Clicked="Handle_NavigateToCustomCellListView"/>
     </StackLayout>
 </ContentPage>

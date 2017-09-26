@@ -39,6 +39,9 @@
     <EmbeddedResource Include="BackwardsBinding.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="CustomCellListView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -57,6 +60,10 @@
     </Compile>
     <Compile Include="BackwardsBinding.xaml.cs">
       <DependentUpon>BackwardsBinding.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="CustomCellListView.xaml.cs">
+      <DependentUpon>CustomCellListView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
