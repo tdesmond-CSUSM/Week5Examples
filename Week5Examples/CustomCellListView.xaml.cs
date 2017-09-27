@@ -24,12 +24,14 @@ namespace Week5Examples
                 Name = "John Smith",
                 Age = 45,
                 GradeLevel = "Freshman",
+                Gpa = 3.09,
             };
             var student2 = new Student
             {
                 Name = "Rick Morty",
                 Age = 4,
-                GradeLevel = "Senior"
+                GradeLevel = "Senior",
+                Gpa = 3.54,
             };
 
             studentCollection.Add(student1);

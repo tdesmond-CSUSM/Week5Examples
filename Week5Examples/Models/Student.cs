@@ -20,5 +20,11 @@ namespace Week5Examples.Models
             get;
             set;
         }
+
+        public double Gpa
+        {
+            get;
+            set;
+        }
     }
 }
