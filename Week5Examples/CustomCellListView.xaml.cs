@@ -40,5 +40,15 @@ namespace Week5Examples
             ListViewWithCustomCells.ItemsSource = studentCollection;
         }
 
+        void Handle_SwitchToggled(object sender, Xamarin.Forms.ToggledEventArgs e)
+        {
+            var userSwitch = (Switch)sender;
+            var grid = (Grid)userSwitch.Parent;
+
+            var random = new Random(DateTime.Now.Millisecond);
+            Color randomColor = Color.FromRgb(random.Next(256), random.Next(256), random.Next(256));
+            grid.BackgroundColor = randomColor;
+
+        }
     }
 }
