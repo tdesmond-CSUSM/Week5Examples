@@ -5,10 +5,21 @@
     x:Class="Week5Examples.CustomCellListView">
     <ListView
         x:Name="ListViewWithCustomCells"
-        HasUnevenRows="true">
+        HasUnevenRows="true"
+        IsPullToRefreshEnabled="true"
+        Refreshing="Handle_Refreshing">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
+                    <ViewCell.ContextActions>
+                        <MenuItem
+                            Text="More"
+                            Clicked="Handle_ContextMenuMoreButton"
+                            CommandParameter="{Binding .}" />
+                        <MenuItem
+                            Text="Delete"
+                            IsDestructive="True" />
+                    </ViewCell.ContextActions>
                     <ViewCell.View>
                         <Grid
                             x:Name="ListViewGrid">

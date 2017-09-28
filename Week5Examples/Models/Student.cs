@@ -26,5 +26,11 @@ namespace Week5Examples.Models
             get;
             set;
         }
+
+        public string MoreInfoText
+        {
+            get;
+            set;
+        }
     }
 }

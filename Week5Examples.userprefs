@@ -1,20 +1,13 @@
 ﻿<Properties StartupConfiguration="{E40B6226-ABAE-4D09-B209-3B17D4836FCE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Week5Examples/CustomCellListView.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Week5Examples/Week5ExamplesPage.xaml">
     <Files>
-      <File FileName="Week5Examples/Models/Person.cs" Line="29" Column="6" />
-      <File FileName="Week5Examples/SimpleStackLayoutWithBinding.xaml" Line="10" Column="15" />
-      <File FileName="Week5Examples/SimpleStackLayoutWithBinding.xaml.cs" Line="20" Column="37" />
-      <File FileName="Week5Examples/Week5ExamplesPage.xaml" Line="19" Column="57" />
-      <File FileName="Week5Examples/Week5ExamplesPage.xaml.cs" Line="29" Column="58" />
-      <File FileName="Week5Examples/App.xaml.cs" Line="11" Column="39" />
-      <File FileName="Week5Examples/ViewToViewBinding.xaml" Line="27" Column="15" />
-      <File FileName="Week5Examples/ViewToViewBinding.xaml.cs" Line="1" Column="1" />
-      <File FileName="Week5Examples/BackwardsBinding.xaml.cs" Line="1" Column="1" />
-      <File FileName="Week5Examples/BackwardsBinding.xaml" Line="93" Column="15" />
-      <File FileName="Week5Examples/Models/Student.cs" Line="6" Column="32" />
-      <File FileName="Week5Examples/CustomCellListView.xaml" Line="30" Column="15" />
-      <File FileName="Week5Examples/CustomCellListView.xaml.cs" Line="27" Column="41" />
+      <File FileName="Week5Examples/CustomCellListView.xaml" Line="16" Column="58" />
+      <File FileName="Week5Examples/CustomCellListView.xaml.cs" Line="77" Column="35" />
+      <File FileName="Week5Examples/WebsiteMoreInfoPage.xaml" Line="10" Column="15" />
+      <File FileName="Week5Examples/WebsiteMoreInfoPage.xaml.cs" Line="18" Column="38" />
+      <File FileName="Week5Examples/Models/Student.cs" Line="35" Column="2" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Week5Examples/Week5ExamplesPage.xaml" Line="8" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
